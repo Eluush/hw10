@@ -2,11 +2,11 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Задание 1");
-        String firstName = "Ivan ";
-        String lastName = "Ivanov ";
+        String firstName = "Ivan";
+        String lastName = "Ivanov";
         String middleName = "Ivanovich";
         String fullName = "Фамилия Имя Отчество";
-        fullName = firstName+ lastName+ middleName;
+        fullName = lastName + " " + firstName + " " + middleName;
         System.out.println("Ф.И.О. сотрудника - " + fullName);
 
         System.out.println("Задание 2");
